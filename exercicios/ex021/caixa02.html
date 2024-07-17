@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(182, 182, 182);
+            margin: 0px;
+        }
+        header > h1{
+            text-align: center;
+            font-size: 80px;
+            margin: 0px;
+            color: rgb(182, 182, 182);
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        main{
+            margin: 10px;
+            padding: 5px;
+            background-color: white;
+            border-radius: 10px;
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            box-shadow: 1px 1px 5px black;
+        }
+        header > nav{
+            background-color: rgb(58, 58, 58);
+            text-align: center;
+            font-size: 20px;
+            padding: 3px;
+            margin: 0px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        header > nav:hover{
+            text-decoration: underline;
+        }
+        section#assuntos{
+            margin: 10px;
+            font-size: 25px;
+        }
+        h2{
+            font-size: 40px;
+        }
+        aside{
+            text-align: center;
+            background-color: rgb(129, 129, 129);
+        }
+        article{
+            background-color: rgb(180, 180, 180);
+            padding: 5px;
+            margin:10px;
+            box-shadow: 1px 1px 3px rgb(200, 200, 200);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.452); 
+            border-radius: 10px 0px;
+        }
+        footer > P{
+            margin: 0px;
+        }
+        /*Não é nada não só quero que de 100 linhas de codigo pra eu me gabar
+        .*/
+        div#bola{
+            
+            height: 300px;
+            width: 300px;
+            margin: 20px auto;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            border: 5px solid rgb(0, 0, 0);
+            text-align: center;
+            font-size: 167px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Brasil, esportes e politica
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Brasil em crise</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos incidunt, saepe voluptatibus expedita quis maxime ducimus odit ratione animi necessitatibus cumque, numquam velit doloribus excepturi. Odit, sit. Ducimus, quos et!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, illo et quibusdam mollitia iste distinctio facilis in voluptatem, debitis consectetur vel. Deserunt earum quibusdam illum. Exercitationem quae fugit quam rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere laboriosam vitae. Quo eius porro voluptates earum obcaecati similique blanditiis. Amet assumenda dolorum, harum magni quibusdam ipsam rem corporis alias?</p>
+                <aside>
+                    <p>por Samuel Alberton Pereira</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo samuel alberton pereira</p>
+    </footer>
+    <div id="bola">&#x1F44D;</div>
+</body>
+</html>
