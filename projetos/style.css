@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.capa{
+    text-align: center;
+}
+p.capa{
+    font-size: 32px;
+    margin: 15px;
+}
+
+h1.capa{
+    font-size: 100px;
+    margin: 15px;
+}
+h2.capa{
+    font-size: 40px;
+    margin: 15px;
+}
+header.capa{
+    margin-top: 25vh;
+}
+nav.capa{
+    margin: 19vh;
+    font-size: 40px;
+}
+a#pag1{
+    color: black;
+}
