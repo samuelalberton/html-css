@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+
+body{
+    background-color: black;
+}
+
 .capa{
     text-align: center;
 }
@@ -18,11 +23,12 @@ h2.capa{
 }
 header.capa{
     margin-top: 25vh;
+    color: white;
 }
 nav.capa{
     margin: 19vh;
     font-size: 40px;
 }
 a#pag1{
-    color: black;
+    color: white;
 }
